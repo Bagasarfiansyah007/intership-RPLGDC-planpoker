@@ -1,0 +1,125 @@
+.header1 {
+    width: 100%;
+    height: 100px;
+    background-color: #1c2b36;
+    overflow: hidden;
+}
+
+.header2-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header2-container .logo h1{
+    font-size: 24px;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.header2-container .logo img{
+    width: 50px;
+}
+
+.header2-container .logo ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    
+}
+
+.header2-container .col-sm-6 {
+    align-items: center;
+
+}
+
+.header2-container .btnLogin {
+    display: none;
+}
+
+.header2-container .btnLogin ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header2-container .btnLogin ul button{
+    width: 110px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.header2-container .btnLogin ul li:nth-child(1) button{
+    margin-left: px;
+    background-color: rgb(255, 125, 50);
+    border: none;
+    margin-right: 10px;
+    border-radius: 100px;
+
+}
+
+.header2-container .btnLogin ul li:nth-child(2) button{
+    margin-left: px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(255, 125, 50);
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 768px){ 
+
+}
+
+@media (max-width: 575px){ 
+    .header2-container .col-sm-6{
+        width: 100%;
+        border: none;
+    }
+
+    .header2-container .logo{
+        padding-left: 15px;
+    }
+
+    .header2-container .btnLogin{
+        padding-right: 15px;
+    }
+    
+}
+
+@media (max-width: 414px){
+    .header2-container .logo{
+        padding-left: 10px;
+    }
+
+    .header2-container .logo img{
+        width: 50px;
+    }
+
+    .header2-container .logo h1{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .header2-container .btnLogin{
+        padding-right: 10px;
+    }
+
+    .header2-container .btnLogin li:nth-child(2){
+        display: none;
+    }
+}

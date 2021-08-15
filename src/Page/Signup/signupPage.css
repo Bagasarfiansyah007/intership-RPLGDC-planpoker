@@ -1,0 +1,140 @@
+.signupage1 {
+    background-color: #1c2b36;
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+    overflow: hidden;
+}
+
+.signupage1 h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.signupage1 p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 2em;
+    padding-bottom: 0.5em;
+}
+
+.signupage1 .col-sm-6 {
+}
+
+
+.signupage1 .col-sm-6:nth-child(1){
+    padding-top: 1em;
+}
+
+.signupage1 .col-sm-6 .mb-3 {
+    
+}
+
+.signupage1 .col-sm-6 .btn {
+    background-color: rgb(255, 125, 50);
+    border: none;
+    margin-right: 10px;
+    border-radius: 100px;
+    margin-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 120px;
+    height: 7vh;
+}
+
+.signupage1 .col-sm-6 .form-control {
+    background-color: #233746;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 100px;
+    padding-left: 22px;
+}
+
+.signupage1 label{
+    font-weight: 400;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+
+}
+
+.signupage1 .col-sm-6 .register {
+    font-weight: 700;
+    padding-top: 2em;
+}
+
+.signupage1 .col-sm-6 .register span{
+    color: rgb(255, 125, 50);
+}
+
+.signupage1 .gambar2 {
+    display: flex;
+    justify-content: center;
+}
+
+.signupage1 .gambar2 img{
+    width: 600px;
+    margin-left: 5em;
+}
+
+@media (max-width: 1024px){
+    .signupage1 {
+        padding-top: 2em;
+    }
+
+    .signupage1 .col-sm-6 .btn {
+        height: 4vh;
+    }
+   
+    .signupage1 .col-sm-6:nth-child(1) {
+        padding-top: 1em;
+    }
+
+    .signupage1 .gambar2 img{
+        width: 600px;
+        margin-left: 7em;
+    }
+}
+
+@media (max-width: 768px){ 
+    .signupage1 .col-sm-6:nth-child(1) {
+        width: 100%;
+        padding-top: 2em;
+    }
+
+    .signupage1 .col-sm-6:nth-child(2) {
+        width: 100%;
+    }
+
+    .signupage1 .col-sm-6 .btn {
+        height: 6vh;
+    }
+}
+
+@media (max-width: 575px){ 
+    .signupage1 .col-sm-6:nth-child(1) {
+        
+        padding-left:1.5em;
+    }
+
+    .signupage1 .col-sm-6 .btn {
+        height: 5vh;
+    }
+}
+
+@media (max-width: 414px){
+    .signupage1 .col-sm-6 .btn {
+        height: 7vh;
+    }
+
+    .signupage1 .gambar2 img{
+        width: 500px;
+        margin-left: 7em;
+    }
+}
